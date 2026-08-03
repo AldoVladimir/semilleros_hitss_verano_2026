@@ -44,7 +44,10 @@ Debe responder algo como `git version 2.x.x`.
 **No necesitas instalar Python por separado** — uv lo descarga y administra solo.
 Tampoco necesitas (ni debes usar) Anaconda.
 
-**Windows** — en PowerShell:
+A diferencia de git, uv no tiene un instalador de doble clic: la vía oficial de descarga
+es un comando que baja y ejecuta el instalador desde <https://astral.sh/uv>.
+
+**Windows** — abre PowerShell y ejecuta:
 
 ```powershell
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
