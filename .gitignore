@@ -1,0 +1,16 @@
+# Entorno virtual
+.venv/
+
+# Datos y trabajo personal (nunca al repo)
+datos/
+mi-trabajo/
+
+# Salidas de entrenamiento (Ultralytics escribe en runs/)
+runs/
+*.pt
+*.onnx
+
+# Cachés
+__pycache__/
+.ipynb_checkpoints/
+.ruff_cache/

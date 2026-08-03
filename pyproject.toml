@@ -1,0 +1,25 @@
+[project]
+name = "semilleros-hitss-verano-2026"
+version = "0.1.0"
+description = "Curso de Machine Learning — Semilleros HITSS Verano 2026"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "torch",
+    "torchvision",
+    "ultralytics",
+    "ipykernel",
+]
+
+[dependency-groups]
+dev = [
+    "ruff",
+    "nbstripout",
+]
+
+[tool.uv]
+package = false
