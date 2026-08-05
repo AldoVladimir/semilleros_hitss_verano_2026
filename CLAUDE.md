@@ -5,9 +5,15 @@ Temario en cuatro módulos: aprendizaje estadístico (scikit-learn) →
 redes neuronales (PyTorch) → visión computacional con detección de objetos (Ultralytics YOLO) →
 IA agéntica (AWS Strands Agents, modelos vía Bedrock).
 
-## Idioma
+## Idioma y tono
 
-Prosa, markdown y docstrings en **español**. Código e identificadores en **inglés**.
+- Prosa, markdown y docstrings en **español**. Código e identificadores en **inglés**.
+- Tono formal, técnico y preciso. Sin adjetivos innecesarios ni frases vagas —
+  preferir "cálculo por operaciones matriciales" sobre "cómputo preciso".
+  El material presenta hechos, no opiniones.
+- No inventar: si un dato, una decisión de alcance o una convención no está clara,
+  preguntar antes de asumir. No generar notebooks completos sin un outline aprobado
+  primero.
 
 ## Entorno
 
@@ -27,6 +33,11 @@ Prosa, markdown y docstrings en **español**. Código e identificadores en **ing
 - Datasets **nunca** al repo: usar los loaders de las librerías
   (`sklearn.datasets`, `torchvision.datasets`, descarga automática de Ultralytics)
   con caché en `datos/` (gitignored).
+- **Plotly** es la librería de graficación estándar del curso: interactiva y
+  consistente en los cuatro módulos. Excepción única y explícita: utilidades de
+  diagnóstico de scikit-learn sin equivalente en Plotly (`plot_tree`,
+  `ConfusionMatrixDisplay`) pueden usar matplotlib — se marca como excepción en el
+  notebook donde aparezca.
 - Los `.ipynb` se commitean sin outputs ni metadata de ejecución (filtro nbstripout
   vía `.gitattributes`).
 - Los estudiantes solo hacen `clone` + `pull`: no editan los notebooks originales,
