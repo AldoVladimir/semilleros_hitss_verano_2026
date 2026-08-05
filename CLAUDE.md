@@ -1,9 +1,10 @@
 # Curso de Machine Learning — Semilleros HITSS Verano 2026
 
-Material de un curso universitario de ML: ~20 sesiones de 2 h.
-Temario en cuatro módulos: aprendizaje estadístico (scikit-learn) →
+Material de un curso universitario de ML: sesiones de 2 h.
+Temario en cinco módulos: aprendizaje estadístico (scikit-learn) →
 redes neuronales (PyTorch) → visión computacional con detección de objetos (Ultralytics YOLO) →
-IA agéntica (AWS Strands Agents, modelos vía Bedrock).
+IA agéntica (AWS Strands Agents, modelos vía Bedrock) →
+producción en AWS (contenerización con ECS, SageMaker, Bedrock AgentCore).
 
 ## Idioma y tono
 
@@ -30,13 +31,20 @@ IA agéntica (AWS Strands Agents, modelos vía Bedrock).
 - Cómputo mixto: laptops de estudiantes con **Windows/CPU**, laboratorio con **Linux/GPU**.
   Todo el material de los módulos 1–2 debe correr en CPU en tiempos razonables;
   solo el fine-tuning de YOLO (módulo 3) asume GPU.
+- El módulo 5 requiere una cuenta AWS Academy Learner Lab (gestionada por el
+  instructor) y Docker instalado localmente; ningún otro módulo depende de servicios
+  en la nube.
+- Los despliegues de contenedores del módulo 5 usan siempre CPU (ECS Fargate); no se
+  cubre el launch type EC2/GPU.
 
 ## Convenciones del material
 
 - Un notebook por sesión: `NN-tema.ipynb` (ej. `01-regresion-lineal.ipynb`),
   dentro de `notebooks/modulo-XX-nombre/`. Ejercicios en `ejercicios/` de cada módulo.
 - Estructura pedagógica de cada notebook: motivación → teoría en markdown con LaTeX →
-  código ejecutable → ejercicio.
+  código ejecutable → ejercicio. En el módulo 5 (infraestructura, no matemática), la
+  "teoría en LaTeX" se reemplaza por contexto técnico en markdown: arquitectura del
+  servicio, diagramas de flujo, contratos de API.
 - Datasets **nunca** al repo: usar los loaders de las librerías
   (`sklearn.datasets`, `torchvision.datasets`, descarga automática de Ultralytics)
   con caché en `datos/` (gitignored).

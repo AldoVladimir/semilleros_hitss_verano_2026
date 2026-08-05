@@ -1,6 +1,6 @@
 # Curso de Machine Learning — Semilleros HITSS Verano 2026
 
-Curso universitario de Machine Learning: 1 mes, 2 horas diarias.
+Curso universitario de Machine Learning: sesiones de 2 horas diarias.
 
 | Módulo | Tema | Herramienta principal |
 |---|---|---|
@@ -8,11 +8,13 @@ Curso universitario de Machine Learning: 1 mes, 2 horas diarias.
 | 2 | Redes neuronales | PyTorch |
 | 3 | Visión computacional y detección de objetos | Ultralytics YOLO |
 | 4 | IA agéntica: agentes con LLMs | AWS Strands Agents |
+| 5 | Producción en AWS: contenerización y despliegue | ECS, SageMaker, Bedrock AgentCore |
 
 Todo el material son notebooks de Jupyter que se ejecutan en **VS Code**
 (no usamos Colab ni Anaconda). Los módulos 1 y 2 corren en tu laptop;
 el entrenamiento del módulo 3 se hace en las máquinas del laboratorio (GPU);
-el módulo 4 corre en tu laptop y llama a los modelos vía AWS Bedrock.
+el módulo 4 corre en tu laptop y llama a los modelos vía AWS Bedrock; el módulo 5
+corre en tu laptop contra recursos reales de una cuenta AWS Academy Learner Lab.
 
 ## Instalación
 
