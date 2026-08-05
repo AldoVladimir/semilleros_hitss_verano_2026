@@ -12,6 +12,8 @@ dependencies = [
     "torch",
     "torchvision",
     "ultralytics",
+    "strands-agents",
+    "strands-agents-tools",
     "ipykernel",
 ]
 

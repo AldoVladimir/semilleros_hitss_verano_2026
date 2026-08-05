@@ -1,8 +1,9 @@
 # Curso de Machine Learning — Semilleros HITSS Verano 2026
 
 Material de un curso universitario de ML: ~20 sesiones de 2 h.
-Temario en tres módulos: aprendizaje estadístico (scikit-learn) →
-redes neuronales (PyTorch) → visión computacional con detección de objetos (Ultralytics YOLO).
+Temario en cuatro módulos: aprendizaje estadístico (scikit-learn) →
+redes neuronales (PyTorch) → visión computacional con detección de objetos (Ultralytics YOLO) →
+IA agéntica (AWS Strands Agents, modelos vía Bedrock).
 
 ## Idioma
 
