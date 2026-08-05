@@ -11,9 +11,16 @@ IA agéntica (AWS Strands Agents, modelos vía Bedrock).
 - Tono formal, técnico y preciso. Sin adjetivos innecesarios ni frases vagas —
   preferir "cálculo por operaciones matriciales" sobre "cómputo preciso".
   El material presenta hechos, no opiniones.
+- Sin coloquialismos ni muletillas conversacionales: nada de complicidad con el
+  lector ("y está bien", "tráelo a...", "guarda este resultado"), nada de relleno
+  ("ahora sí", "ojo:"), nada de metáforas o eslóganes ("un lado oscuro", "es un
+  lujo", "aprenderlo una vez es aprenderlos todos"). Registro de texto académico:
+  tercera persona o primera persona del plural exhortativa ("consideremos",
+  "definamos"), nunca dirigirse al lector como a un compañero.
 - No inventar: si un dato, una decisión de alcance o una convención no está clara,
   preguntar antes de asumir. No generar notebooks completos sin un outline aprobado
   primero.
+- NO uses antitética
 
 ## Entorno
 
