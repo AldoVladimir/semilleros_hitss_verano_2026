@@ -18,6 +18,12 @@ producción en AWS (contenerización con ECS, SageMaker, Bedrock AgentCore).
   lujo", "aprenderlo una vez es aprenderlos todos"). Registro de texto académico:
   tercera persona o primera persona del plural exhortativa ("consideremos",
   "definamos"), nunca dirigirse al lector como a un compañero.
+- No anthropomorfizar las matemáticas ni los algoritmos: nada de verbos que les den
+  intención o agencia ("la regularización domestica la varianza", "el modelo
+  persigue el ruido", "Lasso apaga coeficientes", "aplasta los pesos"). Decir qué
+  es la cantidad y cómo se calcula, no qué "parece hacer". Preferir el término
+  técnico establecido en la literatura (ej. *shrinkage* / contracción) sobre una
+  imagen inventada.
 - No inventar: si un dato, una decisión de alcance o una convención no está clara,
   preguntar antes de asumir. No generar notebooks completos sin un outline aprobado
   primero.
