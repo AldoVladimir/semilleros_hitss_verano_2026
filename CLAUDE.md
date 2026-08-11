@@ -24,7 +24,8 @@ producción en AWS (contenerización con ECS, SageMaker, Bedrock AgentCore).
   "insights accionables", "leverage", "sinergia"), sin condescendencia — explicar
   sin asumir que el lector no puede seguir el razonamiento, sin sobreexplicar lo
   obvio. Español neutro: sin regionalismos ni modismos propios de un solo país
-  hispanohablante.
+  hispanohablante. Sin anglicismos crudos cuando existe un término establecido en
+  español: no "commitear", sí "versionar" o "confirmar".
 - No anthropomorfizar las matemáticas ni los algoritmos: nada de verbos que les den
   intención o agencia ("la regularización domestica la varianza", "el modelo
   persigue el ruido", "Lasso apaga coeficientes", "aplasta los pesos"). Decir qué
@@ -66,7 +67,7 @@ producción en AWS (contenerización con ECS, SageMaker, Bedrock AgentCore).
   diagnóstico de scikit-learn sin equivalente en Plotly (`plot_tree`,
   `ConfusionMatrixDisplay`) pueden usar matplotlib — se marca como excepción en el
   notebook donde aparezca.
-- Los `.ipynb` se commitean sin outputs ni metadata de ejecución (filtro nbstripout
+- Los `.ipynb` se versionan sin outputs ni metadata de ejecución (filtro nbstripout
   vía `.gitattributes`).
 - Los estudiantes solo hacen `clone` + `pull`: no editan los notebooks originales,
   trabajan sobre copias en `mi-trabajo/` (gitignored).
