@@ -18,6 +18,13 @@ producción en AWS (contenerización con ECS, SageMaker, Bedrock AgentCore).
   lujo", "aprenderlo una vez es aprenderlos todos"). Registro de texto académico:
   tercera persona o primera persona del plural exhortativa ("consideremos",
   "definamos"), nunca dirigirse al lector como a un compañero.
+- Esta regla de estilo de comunicación aplica también a las respuestas de Claude en
+  el chat, no solo al material escrito: concreto y sin relleno, sin jerga
+  corporativa ("alinear expectativas", "poner sobre la mesa", "a nivel de",
+  "insights accionables", "leverage", "sinergia"), sin condescendencia — explicar
+  sin asumir que el lector no puede seguir el razonamiento, sin sobreexplicar lo
+  obvio. Español neutro: sin regionalismos ni modismos propios de un solo país
+  hispanohablante.
 - No anthropomorfizar las matemáticas ni los algoritmos: nada de verbos que les den
   intención o agencia ("la regularización domestica la varianza", "el modelo
   persigue el ruido", "Lasso apaga coeficientes", "aplasta los pesos"). Decir qué
