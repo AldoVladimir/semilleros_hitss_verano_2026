@@ -35,7 +35,29 @@ producción en AWS (contenerización con ECS, SageMaker, Bedrock AgentCore).
 - No inventar: si un dato, una decisión de alcance o una convención no está clara,
   preguntar antes de asumir. No generar notebooks completos sin un outline aprobado
   primero.
-- NO uses antitética
+- Sin antítesis retórica, en ninguna variante: ni "no es X: es Y", ni la forma
+  disfrazada "A responde a Z, no a W" o "no una relación estadística sino
+  geométrica". Es el recurso que más delata redacción generada por IA. Afirmar el
+  hecho directamente. Si la aclaración ya se dio antes en el mismo notebook, no
+  repetirla reformulada — omitirla, o dejar que el término técnico ya la implique
+  (ej. "artefacto geométrico" descarta una relación estadística sin decirlo).
+  Registro de libro de texto (referencia: *The Elements of Statistical Learning* de
+  Hastie/Tibshirani/Friedman; principios de Halmos, *How to Write Mathematics*, y de
+  Knuth/Larrabee/Roberts, *Mathematical Writing*): una afirmación autocontenida por
+  oración, sin gancho narrativo ("resulta que...", "lo interesante es que..."), sin
+  guion largo como muletilla de inciso.
+- Tampoco anuncios de transición que retrasan el dato antes de darlo ("tiene una
+  consecuencia:", "esto provoca que", "el resultado es que", "esto tiene un efecto:"):
+  es la misma cadencia de suspenso que la antítesis, aplicada a causa-efecto en vez de
+  a contraste. El dato va en la misma cláusula que lo introduce, sin anunciarlo antes.
+- Guion largo (—) reservado para una ruptura real de la oración, no como conector por
+  defecto entre una afirmación y su explicación: para eso están el punto, los dos
+  puntos, la coma o el paréntesis. Más de un guion largo en una misma oración es señal
+  de que se está usando como muletilla; hay que reescribir. Excepciones, ambas
+  tipográficas y no prosa: como separador de título/subtítulo en encabezados de
+  sección o de figura ("Reto — ensambles a escala real"), y como separador entre el
+  término en negrita que abre un ítem de lista y su explicación ("**Bagging** —
+  entrena muchos árboles...").
 
 ## Entorno
 
